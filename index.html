@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<title>IMRAAN SCHOOL</title>
+
+<style>
+   body{
+   	background-image: url("background2.png");
+
+
+   }
+
+.column {
+  float: left;
+  width: 32,95%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+   ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   	background-color: #333;
+   	position: sticky;
+   	top: 0;
+   }
+   li {
+  float: left;
+   }
+
+   li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   }
+
+   li a:hover {
+    background-color: #111;
+    }
+
+   .active {
+     background-color: #4CAF50;
+     }
+
+    .Section2{  
+      border: 5px outset orange;
+      color: white;
+      text-align: center;
+     }
+
+    .Section3{  
+      border: 5px outset orange;
+      color: white;
+      text-align: center;
+     }
+
+    .Section4{  
+      border: 5px outset orange;
+      color: white;
+      text-align: center;
+     }
+
+    footer{  
+      border: 5px outset orange;
+      color: white;
+      text-align: center;
+     }
+
+
+
+
+</style>
+
+<body>
+  <center>
+   <img src="imraan.png">
+  </center>
+   <ul>
+   	  <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="agenda.html">Agenda</a></li>      
+      <li><a href="semester3.html">Semester3</a></li>      
+      <li><a href="archive.html">Archive</a></li>      
+      <li><a href="contact.html">Contact</a></li>
+   </ul>
+
+  <div class="Section2">
+  	<center>
+  	 <h1>ImraanSchool</h1>
+  	 <h3>I am Imraan Douieb. I am a motivated ICT student who likes to deal with computers, servers, networks etc.</h3>
+    </center>
+      <img src="imraanphoto.png">
+  </div>
+
+<div class="Section3">
+  <h1>Current Status</h1>
+  <h3>Currently i'm doing HBO-IT Semester 3</h3>
+  <a href="semester3.html"><button class="btn" style="width:100%">Go to Semester3</button></a>
+</div>
+
+<footer>
+	<p>Copyright Imraan 2022©<p>
+</footer>
+</body>
